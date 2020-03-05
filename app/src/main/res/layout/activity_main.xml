@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/inputGeneraNum"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="50 ? 20"
+        android:textSize="50dp"
+        android:textColor="@color/colorBlanco"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGeneraNumeros"
+        android:textSize="25dp"
+        android:textColor="@color/colorBlanco"
+        android:layout_margin="15dp"
+        android:text="GENERAR NÚMEROS"
+        android:textStyle="bold"
+        android:id="@+id/btnGeneraNum"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="90dp">
+
+
+        <Button
+            android:id="@+id/btnSuma"
+            android:layout_width="25dp"
+            android:textSize="25dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@color/colorSuma"
+            android:text="+"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlanco" />
+
+        <Button
+            android:id="@+id/btnResta"
+            android:layout_width="25dp"
+            android:textSize="25dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorResta"
+            android:text="-"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlanco" />
+
+        <Button
+            android:id="@+id/btnLimpia"
+            android:layout_width="25dp"
+            android:textSize="25dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorLimpia"
+            android:text="C"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlanco" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="120dp">
+
+
+        <Button
+            android:id="@+id/btnMult"
+            android:layout_width="25dp"
+            android:layout_height="80dp"
+            android:textSize="25dp"
+            android:layout_weight="1"
+            android:background="@color/colorMult"
+            android:textStyle="bold"
+            android:text="x"
+            android:textColor="@color/colorBlanco" />
+
+        <Button
+            android:id="@+id/btnDiv"
+            android:layout_width="25dp"
+            android:textSize="25dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorDiv"
+            android:text="/"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlanco" />
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorEsPar"
+        android:textColor="@color/colorBlanco"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="15dp"
+        android:text="¿RESULTADO ES PAR?"
+        android:textSize="25dp"
+        android:id="@+id/btnEsPar"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorEsPrimo"
+        android:textColor="@color/colorBlanco"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:layout_marginHorizontal="15dp"
+        android:text="¿RESULTADO ES PRIMO?"
+        android:id="@+id/btnEsPrimo"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorResultado"
+        android:textColor="@color/colorBlanco"
+        android:layout_marginHorizontal="15dp"
+        android:text="RESULTADO"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+
+        android:layout_height="50dp"
+        android:background="@color/colorEsPrimo"
+        android:textColor="@color/colorBlanco"
+        android:layout_marginHorizontal="15dp"
+        android:textSize="25dp"
+        android:text="150"
+        android:id="@+id/inputResultado"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_marginBottom="50dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorResultado"
+        android:textColor="@color/colorBlanco"
+        android:layout_marginHorizontal="15dp"
+        android:textSize="30dp"
+        android:text="ES PAR"
+        android:gravity="center"
+        />
+
+
+
+
+
+
+</LinearLayout>
